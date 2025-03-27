@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundle Offer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Bundle & Save</h2>
+
+        <div class="option" onclick="selectOption(1)">
+            <div class="defaultBlock">
+                <div class="optionSelector">
+                    <input type="radio" name="unit" id="unit3">
+                    <div class="pairBlock">
+                        <label for="unit3">1 Pair</label>
+                        <span class="price">DKK 195.00</span>
+                    </div>
+                </div>
+                <span class="discount">50% Off</span>
+            </div>
+            <div class="dropdowns">
+                <table class="dropdown-table">
+                    <tr>
+                        <th></th>
+                        <th>Size</th>
+                        <th>Colour</th>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="option" onclick="selectOption(2)">
+            <div class="defaultBlock">
+                <div class="optionSelector">
+                    <input type="radio" name="unit" id="unit2" checked>
+                    <div class="pairBlock">
+                        <label for="unit2">2 Pair</label>
+                        <span class="price">DKK 345.00</span>
+                        <span class="old-price">DKK 195.00</span>
+                    </div>
+                    <span class="discount">40% Off</span>
+                    <span class="most-popular">MOST POPULAR</span>
+
+
+                </div>
+
+            </div>
+
+            <div class="dropdowns">
+                <table class="dropdown-table">
+                    <tr>
+                        <th></th>
+                        <th>Size</th>
+                        <th>Colour</th>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="option" onclick="selectOption(3)">
+            <div class="defaultBlock">
+                <div class="optionSelector">
+                    <input type="radio" name="unit" id="unit3">
+                    <div class="pairBlock">
+                        <label for="unit3">3 Pair</label>
+                        <span class="price">DKK 528.00</span>
+                    </div>
+                </div>
+                <span class="discount">60% Off</span>
+            </div>
+            <div class="dropdowns">
+                <table class="dropdown-table">
+                    <tr>
+                        <th></th>
+                        <th>Size</th>
+                        <th>Colour</th>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="total"> <span class="free-delivery">Free 2 Day Shipping</span> 
+            <span>
+                Total: <span id="total-price">DKK 360.00</span>
+            </span>
+        </div>
+        <button class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z"></path>
+            </svg>
+             Add to Cart
+        </button>
+
+        <div class="poweredBy">@ powered by pumper</div>
+    </div>
+    <script  src="./script.js" defer></script>
+</body>
+</html>
